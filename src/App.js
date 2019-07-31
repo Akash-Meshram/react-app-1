@@ -1,14 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Person from './components/Person';
+import React, { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <Person />
-    </div>
-  );
+
+class App extends Component {
+  render() {
+
+    return (
+      <div className="App">
+        <Person name = 'Akash'/>
+
+      </div>
+    );
+  }
 }
 
 export default App;
